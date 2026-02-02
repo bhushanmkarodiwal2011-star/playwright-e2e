@@ -9,6 +9,6 @@ test('Google search test', async ({ browser }) => {
   // Directly search (no popup handling)
   await page.locator('textarea[name="q"]').fill('Playwright automation');
   await page.keyboard.press('Enter');
-
+//Depricated code
   //await expect(page).toHaveTitle(/Playwright automation/i);
 });
